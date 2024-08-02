@@ -13,9 +13,10 @@ async function searchImage(){
     const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accesskey}&per_page=12`;
     try{
         const response = await fetch(url);
+        console.log(response);
         const data = await response.json();
         const result = data.results;
-       // console.log(data)
+        console.log(result)
         if (page===1){
             searchResult.innerHTML="";
         }

@@ -75,5 +75,21 @@ input:active{
     border-radius: 5px;
 
 }
+.gitlog a{
+    text-decoration: none;
+    color: #f8f6f6;
+    position: absolute;
+    top: 10px;
+    left:10px;
+    background-color: #222;
+    cursor: pointer;
+     
+    width: 20px;
+    border-radius: 4px;
+}
+.gitlog a:hover{
+    background: transparent;
+    top: 0px;
+}
 
 
